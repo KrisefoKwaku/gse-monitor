@@ -1,0 +1,54 @@
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0e1117; }
+::-webkit-scrollbar-thumb { background: #26a69a; border-radius: 3px; }
+
+/* Date picker dark theme */
+.SingleDatePickerInput {
+    background-color: #1e2130 !important;
+    border: 1px solid #444 !important;
+    border-radius: 4px !important;
+}
+.DateInput_input {
+    background-color: #1e2130 !important;
+    color: #cccccc !important;
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+}
+.DayPicker { background: #1e2130 !important; }
+.CalendarDay__default { background: #1e2130 !important; color: #ccc !important; }
+.CalendarDay__selected {
+    background: #26a69a !important;
+    border-color: #26a69a !important;
+}
+
+/* Advice sidebar cards */
+.advice-buy {
+    border-left: 4px solid #26a69a !important;
+    background: rgba(38,166,154,0.08) !important;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+.advice-sell {
+    border-left: 4px solid #ef5350 !important;
+    background: rgba(239,83,80,0.08) !important;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+.advice-neutral {
+    border-left: 4px solid #FFA726 !important;
+    background: rgba(255,167,38,0.08) !important;
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+.score-bar-fill-buy  { background: #26a69a; height: 6px; border-radius: 3px; }
+.score-bar-fill-sell { background: #ef5350; height: 6px; border-radius: 3px; }
+.score-bar-bg {
+    background: #1e2130;
+    height: 6px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
